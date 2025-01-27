@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: #f8f8f8;
+    background: rgb(248, 248, 248);
 }
 
 .logo {
@@ -15,7 +15,7 @@ body {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #000;
+    color: rgb(173, 91, 91);
 }
 
 .logo img {
@@ -34,16 +34,16 @@ body {
     font-weight: bold;
 }
 
-.home { color: #FFA500; }
-.news { color: #0000FF; }
-.facilities { color: #00CED1; }
-.admission { color: #800080; }
+.home { color: rgb(255, 165, 0); }
+.news { color: rgb(73, 73, 170); }
+.facilities { color: rgb(129, 253, 255); }
+.admission { color: rgb(83, 44, 83); }
 
 .contact-btn {
-    background: #FFA500;
+    background: hwb(39 35% 27%);
     padding: 10px 20px;
     border: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
@@ -87,13 +87,13 @@ body {
     max-width: 400px;
 }
 
-.highlight { color: #FFA500; }
-.blue { color: #0000FF; }
+.highlight { color: hwb(39 38% 15%); }
+.blue { color: rgb(58, 58, 161); }
 
 .enroll-btn {
-    background: #000;
+    background: rgb(0, 0, 0);
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -103,7 +103,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(244, 244, 244);
     
 }
 
@@ -115,7 +115,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    color: #333;
+    color: rgb(51, 51, 51);
     
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .banner h1 .highlight {
-    color: #ff7f00;
+    color: rgb(255, 127, 0);
 }
 
 .banner p {
@@ -140,8 +140,8 @@ body {
 
 .banner .learn-more {
     padding: 12px 24px;
-    background-color: #ff7f00;
-    color: #fff;
+    background-color: rgb(255, 127, 0);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -152,7 +152,7 @@ body {
     max-width: 400px;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .banner {
         flex-direction: column;
@@ -169,7 +169,7 @@ body {
     }
 }
 
-/* Curriculum Section */
+
 .curriculum {
     text-align: center;
     padding: 50px;
@@ -188,7 +188,7 @@ body {
 }
 
 .card {
-    background: #fff;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -213,7 +213,7 @@ body {
 
 .card p {
     font-size: 14px;
-    color: #555;
+    color: rgb(85, 85, 85);
 }
 
 .read-more {
@@ -235,17 +235,17 @@ body {
     color: blue;
 }
 
-/* Navigation Buttons */
+
 .navigation {
     margin-top: 30px;
 }
 
 .navigation button {
     padding: 15px 20px;
-    background-color: #ff7f00;
+    background-color: rgb(255, 127, 0);
     border: none;
     border-radius: 50%;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     cursor: pointer;
     margin: 0 10px;
@@ -259,7 +259,7 @@ body {
     display: inline-block;
     width: 100%; 
     animation: moveText 30s linear infinite;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 @keyframes moveText {
@@ -288,7 +288,7 @@ body {
 
 h2 {
     font-size: 36px;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .stories-container {
@@ -318,17 +318,17 @@ h2 {
 
 h3 {
     font-size: 22px;
-    color: #222;
+    color: rgb(34, 34, 34);
 }
 
 p {
     font-size: 16px;
-    color: #555;
+    color: rgb(92, 78, 78);
 }
 
 footer {
-    background: #007bff;
-    color: #fff;
+    background: rgb(105, 152, 202);
+    color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
 
