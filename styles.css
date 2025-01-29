@@ -1,375 +1,497 @@
-body {
-    background-color: rgb(255, 255, 255);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.navbar {
+    .head-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+.share-button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 8px 30px;
+    border-radius: 12px;
+    background: rgb(131, 103, 55);
+    border: none;
+}
+
+section{
+    background-color: #F7F7F7;
+}
+.container{
+    padding: 15px 0px;
+    max-width: 1160px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    background: rgb(248, 248, 248);
 }
-
-.logo {
+.logo-part{
     display: flex;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(173, 91, 91);
 }
-
-.logo img {
-    width: 40px;
-    margin-right: 10px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links a {
+.topnav > a{
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-left: 30px;
 }
-
-.home { color: rgb(255, 165, 0); }
-.news { color: rgb(73, 73, 170); }
-.facilities { color: rgb(129, 253, 255); }
-.admission { color: rgb(83, 44, 83); }
-
-.contact-btn {
-    background: hwb(39 35% 27%);
-    padding: 10px 20px;
-    border: none;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+.logo-title{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
 }
-
-.hamburger-menu {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .nav-links,
-    .contact-btn {
-        display: none;
-    }
-    .hamburger-menu {
-        display: block;
-    }
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-}
-
-.hero-content h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.hero-content p {
-    margin: 20px 0;
-    font-size: 18px;
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 400px;
-}
-
-.highlight { color: hwb(39 38% 15%); }
-.blue { color: rgb(58, 58, 161); }
-
-.enroll-btn {
-    background: rgb(0, 0, 0);
-    padding: 10px 20px;
-    color: rgb(255, 255, 255);
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(244, 244, 244);
-    
-}
-
-
-
-/* Banner Section */
- .background {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    color: rgb(51, 51, 51);
-    
-}
-
-.banner .content {
-    max-width: 50%;
-}
-
-.banner h1 {
+.fa-bars{
     font-size: 40px;
-    font-weight: bold;
+    display: none;
 }
-
-.banner h1 .highlight {
-    color: rgb(255, 127, 0);
+.menu{
+    display: none;
 }
+    .banner-section{
+        background-color: #ffffff;
+        padding: 50px 0px;
+    }
+    .banner-container{
+        gap: 120px;
+    }
+    .banner-title{
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .banner-p{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 25px 0px;
+    }
+    .banner-btn{
+        background-color: black;
+    }
 
-.banner p {
-    font-size: 16px;
-    line-height: 1.8;
-    margin: 20px 0;
-}
-
-.banner .learn-more {
-    padding: 12px 24px;
-    background-color: rgb(255, 127, 0);
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.banner-image img {
-    max-width: 400px;
-}
-
-
-@media (max-width: 768px) {
-    .banner {
-        flex-direction: column;
+    .curriculum-section{
+        background-image: url(/B11-A2-Kids-School/assets/bg.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding: 80px 0px;
+    }
+    .curriculum-container{
+        padding: 40px 0px;
+    }
+    .box-container{
+        gap: 20px;
+    }
+    .curriculum-box{
+        width: 33%;
+        padding: 50px 30px;
+        border-radius: 20px;
+        background: linear-gradient(45turn, #ffffff, #ffffff, hwb(31 18% 7% / 0.078));
+        text-align: center;
+        border: 1px solid #f69c3c23;
+    }
+    .box-2{
+        background: linear-gradient(45turn, #ffffff, #ffffff, rgba(15, 146, 207, 0.078));
+        border: 1px solid #01adfd25;
+    }
+    .box-3{
+        background: linear-gradient(45turn, #ffffff, #ffffff, rgba(90, 136, 17, 0.125));
+        border: 1px solid #86b53946;
+    }
+    .box-img{
+        width: 120px;
+        height: 120px;
         text-align: center;
     }
-
-    .banner .content {
-        max-width: 100%;
+    .box-title{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    padding-top: 20px;
     }
-
-    .banner-image img {
-        order: -1;
-        max-width: 100%;
+    .box-p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding: 10px 0px;
     }
-}
-
-
-.curriculum {
-    text-align: center;
-    padding: 50px;
-}
-
-.curriculum h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.cards {
+    .box-btn{
     display: flex;
     justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .box-btn-1{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
     text-align: center;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-.card img {
-    max-width: 100px;
-    margin-bottom: 15px;
-}
-
-.card h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 14px;
-    color: rgb(85, 85, 85);
-}
-
-.read-more {
-    display: inline-block;
-    margin-top: 15px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.purple {
-    color: purple;
-}
-
-.yellow {
-    color: orange;
-}
-
-.blue {
-    color: blue;
-}
-
-
-.navigation {
-    margin-top: 30px;
-}
-
-.navigation button {
-    padding: 15px 20px;
-    background-color: rgb(255, 127, 0);
+    color: rgb(135, 0, 255);
     border: none;
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    cursor: pointer;
-    margin: 0 10px;
-}
-
-
-.animated-text {
-    font-size: 18px;
-    white-space: nowrap;  
-    overflow: hidden;
-    display: inline-block;
-    width: 100%; 
-    animation: moveText 30s linear infinite;
-    color: rgb(51, 51, 51);
-}
-
-@keyframes moveText {
-    0% {
-        transform: translateX(100%);
+    background-color: rgba(255, 255, 255, 0);
     }
-    100% {
-        transform: translateX(-100%);
+    .box-btn-2{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(230, 165, 13);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
     }
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    
-    background: linear-gradient(to top, rgba(0, 123, 255, 0.8), rgba(255, 255, 255, 0.9)), url('assets/bg.png') no-repeat center center/cover;
-}
-
-.stories {
+    .box-btn-3{
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
     text-align: center;
-    padding: 50px 20px;
-}
+    color: rgb(100, 200, 255);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    }
+    /* icon style */
+    .icon-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .fa-solid{
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        background-color: rgb(216, 144, 21);
+        border-radius: 100%;
+    }
+    .icon-1{
+        rotate: 90deg;
+    }
+    .icon-2{
+        rotate: -90deg;
+    }
 
-h2 {
-    font-size: 36px;
-    color: rgb(51, 51, 51);
-}
+    .stories-section{
+        background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(254, 163, 1, 0.3));
 
-.stories-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.story {
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.story img {
-    width: 100%;
-    height: auto;
-}
-
-.story-content {
-    padding: 20px;
-    text-align: left;
-}
-
-h3 {
-    font-size: 22px;
-    color: rgb(34, 34, 34);
-}
-
-p {
-    font-size: 16px;
-    color: rgb(92, 78, 78);
-}
-
-footer {
-    background: rgb(105, 152, 202);
-    color: rgb(255, 255, 255);
-    padding: 50px 20px;
-}
-
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.footer-logo, .footer-links, .footer-social {
-    flex: 1;
-    margin: 10px;
-}
-
-.footer-logo img {
-    width: 60px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-
-ul li {
-    margin-bottom: 10px;
-}
-
-.social-icons img {
-    width: 30px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .stories-container {
+    }
+    .overlay-img{
+        background-image: url(/B11-A2-Kids-School/assets/bg.png);
+        background-position: center;
+        padding: 80px 0px;
+    }
+    .stories-img{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .stories-container{
+        gap: 20px;
+        align-items: start;
+        padding: 50px 0px;
+    }
+    .stories-left-part{
+        width: 45%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .date{
+        background-color: #758b1d;
+        display: inline;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 15.34px;
+        font-weight: 500;
+        line-height: 28.76px;
+        letter-spacing: 0%;
+        padding: 8px 12px;
+        border-radius: 200px;
+    }
+    .date-title{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38.35px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .stories-p{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .stories-left-part-box{
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        padding: 0px 40px 30px 40px;
+        margin-top: -20px;
+    }
+    .date-color-1{
+        background-color: #3CD8E8;
+    }
+    .stories-right-part{
+        width: 55%;
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .stories-title{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 15.34px;
+        font-weight: 700;
+        line-height: 23.76px;
+        letter-spacing: 0%;
+        padding-top: 20px;
+    }
+    .date-color-2{
+        background-color: #5D58F0;
+    }
+    .stories-btn{
+        padding: 10px 40px;
+        background-color: black;
     }
 
-    .footer-content {
+    .footer-section{
+        background-color: #202020;
+        padding: 60px 0px;
+    }
+    .footer-container{
+        max-width: 1160px;
+    }
+    .footer-container{
+        align-items: start;
+    }
+    
+    .footer-column-1{
+        width: 50%;
+    }
+    .footer-logo-part{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-logo-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .logo-icon{
+        width: 15%;
+    }
+    .footer-p{
+    color: rgb(255, 255, 255);
+    padding-right: 150px;
+    padding-top: 20px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .footer-column-2{
+        width: 25%;
+    }
+    .footer-sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .quick-link> ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+        padding-top: 20px;
+    }
+    ul > li{
+        padding-top: 10px;
+    }
+    .footer-column-3{
+        width: 25%;
+    }
+    .social-icon{
+        padding-top: 20px;
+    }
+
+
+.headline{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+@media only screen and (max-width: 576px) {
+    .menu{
+        display: block;
+    }
+    .topnav{
+        display: none;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .container{
+        padding: 10px 20px;
+    }
+    .header-section{
+        border-bottom: 1px solid rgb(254, 163, 1);
+    }
+    
+    .head-title {
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .banner-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-container{
+        gap: 30px;
+    }
+    .banner-section {
+        padding: 40px 0px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%; 
+    text-align: center;
+    }
+    .banner-p{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .banner-btn{
+        align-items: center;
+    }
+    .banner-b{
+        display: flex;
+        justify-content: center;
+    }
+    /* Responsive Standard Curriculum Section style start */
+    .box-container{
         flex-direction: column;
     }
+    .curriculum-box{
+        width: 100%;
+    }
+    .curriculum-section{
+        padding: 50px 10px;
+    }
+ /* responsive style Our Stories section */
+    .stories-container{
+        flex-direction: column;
+    }
+    .stories-left-part{
+        display: none;
+    }
+    .stories-right-part{
+        width: 100%;
+    }
+    .stories-left-part-box{
+    padding: 0px 20px 20px 20px;
+    }
+    .stories-title{
+        font-size: 10.22px;
+        line-height: 20px;
+    }
+    .date{
+        font-size: 10.22px;
+    }
+    .stories-container{
+        padding: 30px 20px;
+    }
+/*  The Responsive footer section  Style */
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        padding: 0px 20px;
+    }
+    /*responsive footer column-1 */
+    .footer-column-1{
+        width: 100%;
+    }
+    .logo-icon{
+        width: 18%;
+    }
+    .footer-logo-title{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .footer-p {
+        padding-right: 0px;
+    }
+ /*responsive footer column 2 */
+    .footer-column-2{
+        width: 100%;
+        padding-top: 30px;
+    }
+    ul{
+        padding-top: 10px;
+    }
+  /*responsive footer column 3 */
+    .footer-column-3{
+    width: 100%;
+    padding-top: 30px;
+}
+
+/* Responsive Standard Curriculum Section style End*/
 }
